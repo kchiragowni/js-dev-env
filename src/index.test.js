@@ -15,7 +15,7 @@ describe('index.html', () => {
       const h1 = window.document.getElementsByTagName('h1')[0];
       const p = window.document.getElementsByTagName('p')[0];
       expect(h1.innerHTML).to.equal('Hello World!');
-      expect(p.innerHTML).to.equal("Welcome to Java Starter Kit");
+      expect(p.innerHTML).to.equal("Welcome to JavaScript Starter Kit");
       done();
       window.close();
     });
